@@ -1,0 +1,18 @@
+spring:
+  #数据库连接配置
+  datasource:
+    driver-class-name: com.ibm.db2.jcc.DB2Driver #数据库链接驱动
+    name: sbhw  #数据库名
+    #jdbc:db2://<DB2的IP>:<端口>/<数据库名>:currentSchema=<要连接的schema名>;
+    url: jdbc:db2://192.168.100.11:50001/sbhw:currentSchema=HOMEWORK;
+    username: dwinst
+    password: dwinst
+
+#mybatis的相关配置
+mybatis:
+  #mapper配置文件
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.homework.model
+  #开启驼峰命名
+  configuration:
+    map-underscore-to-camel-case: true

@@ -1,0 +1,21 @@
+spring:
+  #数据库连接配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver #数据库链接驱动
+    name: homework  #数据库名
+    url: jdbc:mysql://localhost:3306/homework?useSSL=false&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root #用户名
+    password: root123 #密码
+
+  jpa:
+    database: mysql
+    show-sql: true
+
+##mybatis的相关配置
+#mybatis:
+#  #mapper配置文件
+#  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.example.homework.model
+#  #开启驼峰命名
+#  configuration:
+#    map-underscore-to-camel-case: true

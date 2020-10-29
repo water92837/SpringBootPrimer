@@ -1,0 +1,10 @@
+DROP TABLE user;
+CREATE TABLE user (id int(10) unsigned NOT NULL AUTO_INCREMENT, name varchar(50) NOT NULL, mobile varchar(20), email varchar(50), PRIMARY KEY (id)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+INSERT INTO user (id, name, mobile, email) VALUES (1, '’≈Ω®∑Â', '13789836783', 'zhangjf@126.com');
+INSERT INTO user (id, name, mobile, email) VALUES (2, '∑Ëπ∑', '13367569871', 'fenggou@126.com');
+INSERT INTO user (id, name, mobile, email) VALUES (3, '¿Ó È∏£', '13155768777', 'lisf@126.com');
+INSERT INTO user (id, name, mobile, email) VALUES (4, 'Õı’®', '18899001234', 'wangzha@163.com');
+INSERT INTO user (id, name, mobile, email) VALUES (5, 'µ“» Ω‹', '18880001000', 'direnjie@163.com');
+INSERT INTO user (id, name, mobile, email) VALUES (6, 'Õﬂø≤¥Ô', '18866668888', 'Kings@163.com');
+INSERT INTO user (id, name, mobile, email) VALUES (7, '√©Ã®', '01234567891', 'email@update.com');
+INSERT INTO user (id, name, mobile, email) VALUES (8, '¡ıÏ«', '18880001000', 'liuye@163.com');
