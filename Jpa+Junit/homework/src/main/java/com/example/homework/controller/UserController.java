@@ -80,7 +80,7 @@ public class UserController {
         try {
             User user = new User();
             //主键id自动增长 底层sql语句不涉及id属性 因此主键id应设为自动增长
-            //insert into user (email, mobile, name) values (?, ?, ?)
+            //底层sql语句:insert into user (email, mobile, name) values (?, ?, ?)
             //也不需要校验id 即要添加的用户信息的id肯定是不同的
             //user.setId(id);
             user.setName(name);

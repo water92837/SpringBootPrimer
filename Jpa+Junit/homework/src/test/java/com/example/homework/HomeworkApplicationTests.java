@@ -41,7 +41,7 @@ class HomeworkApplicationTests {
     @Test
     public void testGetUser() {
         User user = userService.getUser(2L);
-        //user不为null 断言通过 说明查询到信息;为null就是没有查询到 会抛出现异常
+        //user不为null 断言通过 说明查询到信息;为null就是没有查询到 Assert.assertNotNull(null)会报错
         Assert.assertNotNull(user);
         printUserInfo(user);
     }
