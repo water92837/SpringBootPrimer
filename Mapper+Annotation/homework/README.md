@@ -1,5 +1,2 @@
 # 说明：
-该模块是 **Mysql+以注解的方式实现Mapper写法**  
-
-
-
+该模块是 **Mysql+UserMapper接口+注解的方式实现Mapper写法** 
