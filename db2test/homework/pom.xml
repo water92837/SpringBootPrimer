@@ -70,13 +70,13 @@
         </dependency>
 
         <!--引入lib中的db2jar包-->
-<!--        <dependency>-->
-<!--            <groupId>com.ibm.db2</groupId>-->
-<!--            <artifactId>db2jcc4</artifactId>-->
-<!--            <version>11.1</version>-->
-<!--            <scope>system</scope>-->
-<!--            <systemPath>${basedir}/lib/db2jcc4.jar</systemPath>-->
-<!--        </dependency>-->
+  <!--  <dependency>
+            <groupId>com.ibm.db2</groupId>
+            <artifactId>db2jcc4</artifactId>
+            <version>11.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/db2jcc4.jar</systemPath>
+        </dependency> -->
 
     </dependencies>
 
