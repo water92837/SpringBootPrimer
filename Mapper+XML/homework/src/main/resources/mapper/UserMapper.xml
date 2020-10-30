@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--DAO层实现文件-->
+<!--注意:1.namespace中需要与使用@Mapper的接口对应-->
+<!--	 2.UserMapper.xml文件名称必须与使用@Mapper的接口一致-->
+<!--	 3.标签中的id必须与@Mapper的接口中的方法名一致，且参数一致-->
+
+<mapper namespace="com.example.homework.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.example.homework.model.User"/>
+	<select id="findAll" resultMap="BaseResultMap">
+		select id, name, mobile, email from user
+	</select>
+    <select id="findById" resultMap="BaseResultMap">
+		select id, name, mobile, email from user where id = #{id}
+	</select>
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+		insert into user
+		  (id, name, mobile, email)
+		values
+		  (#{id}, #{name}, #{mobile}, #{email})
+	</insert>
+    <delete id="deleteById">
+		delete from user where id = #{id}
+	</delete>
+
+	<!--自己添加的根据ID修改用户信息，返回数据库操作影响行数，为0则是失败-->
+	<update id="update" keyProperty="id">
+        UPDATE user
+        SET name = #{name},
+            mobile = #{mobile},
+            email = #{email}
+        WHERE id = #{id};
+    </update>
+
+</mapper>
