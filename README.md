@@ -3,6 +3,7 @@
 2. Jpa+Junit模块是**Mysql+Jpa框架+Junit测试单元**  部分的实现；
 3. Mapper+Annotation是**Mysql+以注解的方式实现Mapper写法**实现 增删改查；
 4. Mapper+XML是原始的**Mysql+以XML的方式实现Mapper写法**实现 增删改查；
+5. demo01是入门的Helloworld应用；
 
 ## 自己添加了：
 
