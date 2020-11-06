@@ -41,7 +41,8 @@ class HomeworkApplicationTests {
     @Test
     public void testGetUser() {
         User user = userService.getUser(2L);
-        //user不为null 断言通过 说明查询到信息;为null就是没有查询到 Assert.assertNotNull(null)会报错
+        //user不为null 断言通过 说明查询到信息;
+        //为null就是没有查询到 此时Assert.assertNotNull(null)会报错
         Assert.assertNotNull(user);
         printUserInfo(user);
     }
@@ -60,7 +61,7 @@ class HomeworkApplicationTests {
 
     @Test
     public void testDeleteUser() {
-        Long id = 16L;
+        Long id = 10L;
         User deleteUser = userService.getUser(id);
         //要删除的用户存在  即deleteUser!=null
         Assert.assertNotNull(deleteUser);
@@ -70,15 +71,15 @@ class HomeworkApplicationTests {
 
     @Test
     public void testModifyUser(){
-        Long id = 7L;
+        Long id = 5L;
         User updateUser = userService.getUser(id);
         //要修改的用户存在  即updateUser!=null
         Assert.assertNotNull(updateUser);
         User user = new User();
         user.setId(id);
-        user.setName("茅台");
+        user.setName("黑豹");
         user.setMobile("01234567891");
-        user.setEmail("email@update.com");
+        user.setEmail("BlackPanther@manwei.com");
         User userSaved = userService.modifyUser(user);
         System.out.println("修改后 id = "+ id +" 的用户信息为:");
         printUserInfo(userSaved);
