@@ -1,0 +1,39 @@
+2021-01-04 15:41:01 INFO  main com.example.logdemo.LogdemoApplication Starting LogdemoApplication using Java 1.8.0_181 on ZJRCU-2020343 with PID 15956 (E:\ZJRCU\Code\gitSpace\SpringBootPrimer\logdemo\target\classes started by ZJRCU2020343 in E:\ZJRCU\Code\gitSpace\SpringBootPrimer\logdemo)
+2021-01-04 15:41:01 INFO  main com.example.logdemo.LogdemoApplication No active profile set, falling back to default profiles: default
+2021-01-04 15:41:02 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-01-04 15:41:02 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-04 15:41:02 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-04 15:41:02 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-04 15:41:02 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-04 15:41:02 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 815 ms
+2021-01-04 15:41:02 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-04 15:41:02 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-01-04 15:41:02 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-04 15:41:02 INFO  main com.example.logdemo.LogdemoApplication Started LogdemoApplication in 1.541 seconds (JVM running for 2.261)
+2021-01-04 15:41:29 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-04 15:41:29 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-01-04 15:41:29 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-01-04 15:41:29 INFO  http-nio-8080-exec-1 com.example.logdemo.controller.UserController 获得所有用户信息列表
+2021-01-04 15:41:29 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource springboot_study - Starting...
+2021-01-04 15:41:29 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource springboot_study - Start completed.
+2021-01-04 15:42:07 INFO  http-nio-8080-exec-2 com.example.logdemo.controller.UserController 获取指定用户id=2的信息
+2021-01-04 15:42:40 INFO  http-nio-8080-exec-4 com.example.logdemo.controller.UserController 添加用户信息为：id=7,name=那么那么,mobile=18880001000,email=pfg@163.com
+2021-01-04 15:42:42 INFO  http-nio-8080-exec-5 com.example.logdemo.controller.UserController 添加用户信息为：id=7,name=那么那么,mobile=18880001000,email=pfg@163.com
+2021-01-04 15:42:43 INFO  http-nio-8080-exec-6 com.example.logdemo.controller.UserController 添加用户信息为：id=7,name=那么那么,mobile=18880001000,email=pfg@163.com
+2021-01-04 15:42:53 INFO  http-nio-8080-exec-3 com.example.logdemo.controller.UserController 添加用户信息为：id=7,name=那么那么,mobile=18880001000,email=pfg@163.com
+2021-01-04 15:43:23 INFO  http-nio-8080-exec-8 com.example.logdemo.controller.UserController 修改用户信息为：id=23,name=那么那么,mobile=18880001000,email=pfg@163.com
+2021-01-04 15:43:33 INFO  http-nio-8080-exec-9 com.example.logdemo.controller.UserController 修改用户信息为：id=7,name=窝窝窝,mobile=18880001000,email=pfg@163.com
+2021-01-04 15:43:39 INFO  http-nio-8080-exec-10 com.example.logdemo.controller.UserController 获得所有用户信息列表
+2021-01-04 15:44:00 INFO  http-nio-8080-exec-2 com.example.logdemo.controller.UserController 获得所有用户信息列表
+2021-01-04 15:44:03 INFO  http-nio-8080-exec-7 com.example.logdemo.controller.UserController 获得所有用户信息列表
+2021-01-04 15:44:04 INFO  http-nio-8080-exec-4 com.example.logdemo.controller.UserController 获得所有用户信息列表
+2021-01-04 15:44:12 INFO  http-nio-8080-exec-5 com.example.logdemo.controller.UserController 获得所有用户信息列表
+2021-01-04 15:44:22 INFO  http-nio-8080-exec-6 com.example.logdemo.controller.UserController 获得所有用户信息列表
+2021-01-04 15:44:24 INFO  http-nio-8080-exec-3 com.example.logdemo.controller.UserController 获得所有用户信息列表
+2021-01-04 15:44:36 INFO  http-nio-8080-exec-8 com.example.logdemo.controller.UserController 获得所有用户信息列表
+2021-01-04 15:44:50 INFO  http-nio-8080-exec-9 com.example.logdemo.controller.UserController 获取指定用户id=24的信息
+2021-01-04 15:44:59 INFO  http-nio-8080-exec-10 com.example.logdemo.controller.UserController 获取指定用户id=2的信息
+2021-01-04 15:45:06 INFO  http-nio-8080-exec-2 com.example.logdemo.controller.UserController 删除指定用户id=20的信息
+2021-01-04 15:45:38 INFO  http-nio-8080-exec-7 com.example.logdemo.controller.UserController 删除指定用户id=7的信息
+2021-01-04 15:46:25 INFO  http-nio-8080-exec-5 com.example.logdemo.controller.UserController 获得所有用户信息列表
+2021-01-04 15:47:39 INFO  http-nio-8080-exec-3 com.example.logdemo.controller.UserController 获取指定用户id=2的信息
