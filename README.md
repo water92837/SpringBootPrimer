@@ -5,6 +5,7 @@
 4. Mapper+XML是原始的**Mysql+以XML的方式实现Mapper写法**实现 增删改查；
 5. demo01是入门的Helloworld应用；
 6. logdemo是在Mapper+Annotation模块基础上**使用SLF4J+Logback实现按日期生成日志文件**
+7. aop-weblog是在logdemo项目的基础上(只保留2个查询接口)引入AOP，实现2个切面（基于类和方法）
 
 ## 自己添加了：
 
