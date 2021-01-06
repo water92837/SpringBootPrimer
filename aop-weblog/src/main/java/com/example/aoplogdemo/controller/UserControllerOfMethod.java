@@ -56,7 +56,6 @@ public class UserControllerOfMethod {
     @GetMapping("/getOne")
     @ControllerWebLogOfMethod(name = "查询测试", intoDb = true)
     public String getOne(Long id, String name) {
-        //③ 执行完doBefore后执行该方法体
         System.out.println("----------------getOne() Body Start----------------");
         if(id < 0) {
             throw new IllegalArgumentException("getOne()方法参数异常");
