@@ -1,16 +1,51 @@
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod ----------------基于方法的切面通知@Around开始执行---------------- 
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod ----------------基于方法的切面通知@Before开始执行---------------- 
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod URL : http://localhost:8080/user/getOne
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod URI : /user/getOne
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod HTTP_METHOD : GET
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod REMOTE_ADDR : 0:0:0:0:0:0:0:1
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod CLASS_METHOD : com.example.aoplogdemo.controller.UserControllerOfMethod.getOne
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod ARGS : [-1, Savage]
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod USER_AGENT :Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod METHOD_NAME :查询测试
-2021-01-06 20:38:14 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod ----------------基于方法的切面通知@Before结束执行---------------- 
-2021-01-06 20:39:13 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod ----------------基于方法的切面通知@AfterThrowing开始执行---------------- 
-2021-01-06 20:41:32 INFO  http-nio-8080-exec-5 com.example.aoplogdemo.common.aop.WebLogAspectOfMethod ----------------基于方法的切面通知@AfterThrowing结束执行---------------- 
-2021-01-06 20:48:11 INFO  Thread-13 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
-2021-01-06 20:48:11 INFO  Thread-13 com.zaxxer.hikari.HikariDataSource springboot_study - Shutdown initiated...
-2021-01-06 20:48:11 INFO  Thread-13 com.zaxxer.hikari.HikariDataSource springboot_study - Shutdown completed.
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 org.springframework.web.servlet.DispatcherServlet Completed initialization in 12 ms
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@Around开始执行---------------- 
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@Before开始执行---------------- 
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass URL : http://localhost:8080/user/getTwo
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass URI : /user/getTwo
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass HTTP_METHOD : GET
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass REMOTE_ADDR : 0:0:0:0:0:0:0:1
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass CLASS_METHOD : com.example.aoplogdemo.controller.UserControllerOfClass.getTwo
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ARGS : [1, null]
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass USER_AGENT :Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@Before结束执行---------------- 
+2021-01-06 22:06:08 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@AfterThrowing开始执行---------------- 
+2021-01-06 22:07:11 INFO  http-nio-8080-exec-2 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@AfterThrowing结束执行---------------- 
+2021-01-06 22:08:04 INFO  Thread-14 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-06 22:08:55 INFO  restartedMain com.example.aoplogdemo.AopWeblogApplication Starting AopWeblogApplication on ZJRCU-2020343 with PID 17132 (E:\ZJRCU\Code\gitSpace\SpringBootPrimer\aop-weblog\target\classes started by ZJRCU2020343 in E:\ZJRCU\Code\gitSpace\SpringBootPrimer\aop-weblog)
+2021-01-06 22:08:55 INFO  restartedMain com.example.aoplogdemo.AopWeblogApplication No active profile set, falling back to default profiles: default
+2021-01-06 22:08:55 INFO  restartedMain org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-06 22:08:55 INFO  restartedMain org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-06 22:08:56 INFO  restartedMain org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-01-06 22:08:56 INFO  restartedMain org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-06 22:08:56 INFO  restartedMain org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-01-06 22:08:56 INFO  restartedMain org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.26]
+2021-01-06 22:08:56 INFO  restartedMain org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-01-06 22:08:56 INFO  restartedMain org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1296 ms
+2021-01-06 22:08:57 INFO  restartedMain org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-06 22:08:57 INFO  restartedMain org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+2021-01-06 22:08:57 INFO  restartedMain org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-01-06 22:08:57 INFO  restartedMain org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-06 22:08:57 INFO  restartedMain com.example.aoplogdemo.AopWeblogApplication Started AopWeblogApplication in 2.506 seconds (JVM running for 3.225)
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@Around开始执行---------------- 
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@Before开始执行---------------- 
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass URL : http://localhost:8080/user/list
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass URI : /user/list
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass HTTP_METHOD : GET
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass REMOTE_ADDR : 0:0:0:0:0:0:0:1
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass CLASS_METHOD : com.example.aoplogdemo.controller.UserControllerOfClass.getAllUser
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ARGS : []
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass USER_AGENT :Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@Before结束执行---------------- 
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource springboot_study - Starting...
+2021-01-06 22:09:07 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource springboot_study - Start completed.
+2021-01-06 22:09:08 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass 耗时：126
+2021-01-06 22:09:08 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@Around结束执行---------------- 
+2021-01-06 22:09:08 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@AfterReturning开始执行---------------- 
+2021-01-06 22:09:08 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass RESPONSE : {userList=[User(id=1, name=张建东, mobile=13778362787, email=zhangjd@126.com), User(id=2, name=李东升, mobile=15178982367, email=lids@126.com), User(id=3, name=李书福, mobile=13155768777, email=lisf@126.com), User(id=4, name=王炸, mobile=18899001234, email=wangzha@163.com), User(id=5, name=狄仁杰, mobile=18880001000, email=direnjie@163.com), User(id=6, name=李元芳, mobile=18866666666, email=lyf@163.com)], status=ok}
+2021-01-06 22:09:08 INFO  http-nio-8080-exec-1 com.example.aoplogdemo.common.aop.WebLogAspectOfClass ----------------基于类的切面通知@AfterReturning结束执行---------------- 
